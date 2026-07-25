@@ -34,12 +34,16 @@ The project includes custom table creation and a classical report to display sal
 - Used Open SQL statements for data retrieval.
 - Developed a requirement-based SAP ABAP report.
 
-# Repository Structure
+## Repository Structure
+
+```text
 📁 01_Sales_Order_Management_System
  ├── 📄 ZSALES_CLASSICAL_REPORT.abap  (Main Executable Program)
  ├── 📄 ZSALES_TOP11.abap             (Data Declarations & Selection Screen)
  ├── 📄 ZSALES_FORM11.abap            (Subroutines & Business Logic)
+ ├── 📄 output_Imagess.md             (Output & Table Screenshots)
  └── 📄 README.md                     (Documentation)
+```
 
  ---
 #  Project Screenshots & Output
