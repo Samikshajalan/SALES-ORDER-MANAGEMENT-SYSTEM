@@ -1,0 +1,22 @@
+REPORT ZINTERACTIVE_SALES_ORDER.
+
+INCLUDE ZSALES12_TOP.
+INCLUDE ZSALES12_FORM.
+
+START-OF-SELECTION.
+PERFORM GET.
+PERFORM DISPLAY.
+
+TOP-OF-PAGE.
+
+WRITE:/ 'SALES ORDER MANAGEMENT REPORT' COLOR 4.
+WRITE:/ '----------------------------------------'.
+WRITE:/ 'Company : SAP Pvt Ltd'.
+WRITE:/ 'Report Date :', SY-DATUM.
+SKIP.
+
+END-OF-PAGE.
+
+WRITE:/ '----------------------------------------'.
+WRITE:/ 'Page No :', SY-PAGNO.
+WRITE:/ 'Prepared By : SAMIKSHA JALAN'.
